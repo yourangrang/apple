@@ -91,6 +91,12 @@
 .play .play-play {margin-left: auto; padding-right: 10px; cursor: pointer;}
 .play .play-next {cursor: pointer; margin-right: 20px;}
 
+.nav {position: fixed; left: 0; bottom: 0px; z-index: 9000; width: 100%; background: #fff;}
+.nav ul {display: flex; text-align: center;}
+.nav ul li {flex-basis: 20%;}
+.nav ul li a {display: block;}
+.nav ul li a span {display: block; font-size: 10px; line-height: 1; color: #999; padding-bottom: 20px;} 
+
 
 
 
